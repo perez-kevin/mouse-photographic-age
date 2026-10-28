@@ -39,7 +39,7 @@ session), `n_in_session`, and `crop_flags` from the masking step. The intermedia
 > about 65% of pairs (50% = chance), and in almost all pairs more than ~16 months apart. Absolute errors were
 > around 5 months on average.
 
-## Pipeline (as in the paper)
+## Pipeline
 
 | Step | Script | What it does |
 |---|---|---|
@@ -91,7 +91,7 @@ or, on a GPU machine with everything in `/content/work`: `bash colab_pipeline.sh
   transfer to new facilities as well as the frozen model; only the frozen model is provided.
 - Hardware: embeddings run on CPU, CUDA or Apple MPS (fp32 on MPS). Set `HF_HOME` to a local (not
   cloud-synced) folder: model files on synced folders can get corrupted.
-- The photographs are not included in this repository (see Data availability in the paper).
+- The photographs are not included in this repository, they are available on Zenodo [10.5281/zenodo.23689447]
 
 ## Citation
 
