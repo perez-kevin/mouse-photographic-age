@@ -1,0 +1,25 @@
+MIT License
+
+Copyright (c) 2026 Kevin Perez and the authors of "Photographic age gap is associated with frailty and
+predicts survival in laboratory mice"
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+-------------------------------------------------------------------------------------------------------------
+Scope: this licence covers the code in this repository and the age model release/mouse_age_ridge448.joblib.
+The mouse detector release/MouseAge2_YOLO_Best_050925.pt was fine-tuned from Ultralytics YOLOv5 weights and is
+distributed under the GNU Affero General Public License v3.0 (AGPL-3.0), the licence of YOLOv5
+(https://github.com/ultralytics/yolov5/blob/master/LICENSE). YOLOv5, Grounding DINO, SAM and DINOv2 are
+downloaded at run time under their own licences.

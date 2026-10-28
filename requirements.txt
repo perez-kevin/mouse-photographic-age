@@ -1,0 +1,28 @@
+torch>=2.3
+torchvision
+timm>=1.0
+transformers>=4.51
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+lifelines
+matplotlib
+pillow
+pillow-heif
+openpyxl
+opencv-python
+packaging
+joblib
+# YOLOv5 (loaded with torch.hub in yolo_crop.py / predict.py) and its own dependencies
+ultralytics
+pyyaml
+requests
+tqdm
+seaborn
+psutil
+gitpython
+ipython
+thop
+setuptools<81   # older YOLOv5 code imports pkg_resources, removed in setuptools 81
